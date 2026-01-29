@@ -25,5 +25,5 @@ This project focuses on clean UI, reusable components, and responsive layout.
 
 ---
 
-## 📁 Folder Structure
+
 
