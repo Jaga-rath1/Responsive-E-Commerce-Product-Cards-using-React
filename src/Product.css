@@ -1,0 +1,22 @@
+.Product {
+  border: 2px solid pink;
+  border-radius: 15px;
+  padding: 15px;
+
+  width: 100%;
+  max-width: 260px;     /* desktop pe card size */
+  min-height: 200px;
+
+  margin: 15px auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+}
+@media (max-width: 600px) {
+  .Product {
+    max-width: 100%;
+  }
+}
